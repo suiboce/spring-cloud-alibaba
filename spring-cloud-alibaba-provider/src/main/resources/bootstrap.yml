@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: provider
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 192.168.1.100:8848
+      discovery:
+        server-addr: 192.168.1.100:8848
+---
+
+spring:
+  profiles: prod
+  cloud:
+    nacos:
+      config:
+        namespace: b41e127d-4ea6-4bb9-9459-d0101c8d4e44

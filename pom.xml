@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wzh</groupId>
+    <artifactId>spring-cloud-alibaba</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-cloud-alibaba-dependencies</module>
+        <module>spring-cloud-alibaba-provider</module>
+        <module>spring-cloud-alibaba-consumer</module>
+        <module>spring-cloud-alibaba-consumer-feign</module>
+        <module>spring-cloud-gateway</module>
+        <module>spring-cloud-external-skywalking</module>
+        <module>spring-cloud-alibaba-rocketmq-provider</module>
+        <module>spring-cloud-alibaba-rocketmq-consumer</module>
+    </modules>
+</project>
